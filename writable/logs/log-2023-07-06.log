@@ -1,0 +1,170 @@
+INFO - 2023-07-06 02:19:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-06 02:20:06 --> mysqli_sql_exception: Table 'fp_pwl.users' doesn't exist in C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\app\Models\UserModel.php(18): CodeIgniter\BaseModel->first()
+#7 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\app\Controllers\AuthController.php(51): App\Models\UserModel->getUserByUsername('admin')
+#8 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\CodeIgniter.php(932): App\Controllers\AuthController->processLogin()
+#9 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#10 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\D...')
+#13 {main}
+CRITICAL - 2023-07-06 02:20:06 --> Table 'fp_pwl.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `users`
+WHERE `username` = \'admin\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+WHERE `username` = \'admin\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+WHERE `username` = \'admin\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Models\UserModel.php(18): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\AuthController.php(51): App\Models\UserModel->getUserByUsername('admin')
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AuthController->processLogin()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+INFO - 2023-07-06 02:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:20:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:20:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:20:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:23:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:23:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:23:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:24:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:26:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:26:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:26:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 02:26:17 --> Undefined array key "nomor_telepon"
+in APPPATH\Views\admin\booking\index.php on line 225.
+ 1 APPPATH\Views\admin\booking\index.php(225): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nomor_telepon"', 'C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php', 225)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/booking/index', [], true)
+ 5 APPPATH\Controllers\BookingController.php(34): view('admin/booking/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+INFO - 2023-07-06 02:36:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-07-06 02:36:40 --> updateStatus() called with id: 5, newStatus: approved
+CRITICAL - 2023-07-06 02:36:40 --> Call to a member function set() on array
+in APPPATH\Controllers\BookingController.php on line 95.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->updateStatus('5', 'approved')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+INFO - 2023-07-06 02:39:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-07-06 02:39:46 --> updateStatus() called with id: 5, newStatus: approved
+CRITICAL - 2023-07-06 02:39:46 --> Attempt to assign property "status" on array
+in APPPATH\Controllers\BookingController.php on line 95.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->updateStatus('5', 'approved')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+INFO - 2023-07-06 02:39:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-07-06 02:39:47 --> updateStatus() called with id: 5, newStatus: approved
+CRITICAL - 2023-07-06 02:39:47 --> Attempt to assign property "status" on array
+in APPPATH\Controllers\BookingController.php on line 95.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->updateStatus('5', 'approved')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+INFO - 2023-07-06 02:39:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-07-06 02:39:47 --> updateStatus() called with id: 5, newStatus: approved
+CRITICAL - 2023-07-06 02:39:47 --> Attempt to assign property "status" on array
+in APPPATH\Controllers\BookingController.php on line 95.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->updateStatus('5', 'approved')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+INFO - 2023-07-06 02:39:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-07-06 02:39:47 --> updateStatus() called with id: 5, newStatus: approved
+CRITICAL - 2023-07-06 02:39:47 --> Attempt to assign property "status" on array
+in APPPATH\Controllers\BookingController.php on line 95.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->updateStatus('5', 'approved')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+INFO - 2023-07-06 02:39:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-07-06 02:39:58 --> updateStatus() called with id: 5, newStatus: approved
+CRITICAL - 2023-07-06 02:39:58 --> Attempt to assign property "status" on array
+in APPPATH\Controllers\BookingController.php on line 95.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->updateStatus('5', 'approved')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+INFO - 2023-07-06 02:42:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-07-06 02:42:55 --> updateStatus() called with id: 5, newStatus: approved
+INFO - 2023-07-06 02:42:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:43:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:43:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:44:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:44:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:45:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:45:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:45:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:45:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-07-06 02:45:48 --> updateStatus() called with id: 6, newStatus: approved
+INFO - 2023-07-06 02:45:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:46:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:46:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-07-06 02:46:13 --> updateStatus() called with id: 7, newStatus: approved
+INFO - 2023-07-06 02:46:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:48:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:49:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:59:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:59:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:59:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:00:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:10:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:11:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:12:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:12:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:13:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:16:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:24:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:26:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 07:07:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 15:48:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 19:52:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 19:52:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 19:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 19:58:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 19:58:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 19:58:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 19:58:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 19:58:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 20:07:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 20:08:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 20:14:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 20:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

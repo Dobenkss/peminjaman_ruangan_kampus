@@ -1,0 +1,51 @@
+INFO - 2023-07-13 11:16:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 11:16:42 --> CSRF token verified.
+ERROR - 2023-07-13 11:16:42 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'pwl', 3306, '', 0)
+#1 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\app\Models\UserModel.php(15): CodeIgniter\BaseModel->first()
+#7 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\app\Controllers\AuthController.php(40): App\Models\UserModel->getUserByUsername('admin')
+#8 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\CodeIgniter.php(932): App\Controllers\AuthController->processLogin()
+#9 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#10 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\D...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\app\Models\UserModel.php(15): CodeIgniter\BaseModel->first()
+#6 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\app\Controllers\AuthController.php(40): App\Models\UserModel->getUserByUsername('admin')
+#7 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\CodeIgniter.php(932): App\Controllers\AuthController->processLogin()
+#8 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\D...')
+#12 {main}
+CRITICAL - 2023-07-13 11:16:42 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Models\UserModel.php(15): CodeIgniter\BaseModel->first()
+ 6 APPPATH\Controllers\AuthController.php(40): App\Models\UserModel->getUserByUsername('admin')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AuthController->processLogin()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')

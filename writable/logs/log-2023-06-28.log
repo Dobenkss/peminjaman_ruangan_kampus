@@ -1,0 +1,720 @@
+CRITICAL - 2023-06-28 08:12:51 --> Invalid file: "rooms/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('rooms/index.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('rooms/index', [], true)
+ 3 APPPATH\Controllers\RoomController.php(15): view('rooms/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\RoomController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+CRITICAL - 2023-06-28 08:37:28 --> include(path/to/your/header/header.php): Failed to open stream: No such file or directory
+in APPPATH\Views\room\index.php on line 11.
+ 1 APPPATH\Views\room\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(path/to/your/header/header.php): Failed to open stream: No such file or directory', 'C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\room\\index.php', 11)
+ 2 APPPATH\Views\room\index.php(11): include()
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\room\\index.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('room/index', [], true)
+ 6 APPPATH\Controllers\RoomController.php(15): view('room/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\RoomController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+CRITICAL - 2023-06-28 08:39:23 --> include(partial/header.php): Failed to open stream: No such file or directory
+in APPPATH\Views\room\index.php on line 12.
+ 1 APPPATH\Views\room\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(partial/header.php): Failed to open stream: No such file or directory', 'C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\room\\index.php', 12)
+ 2 APPPATH\Views\room\index.php(12): include()
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\room\\index.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('room/index', [], true)
+ 6 APPPATH\Controllers\RoomController.php(15): view('room/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\RoomController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+INFO - 2023-06-28 08:54:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 08:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 08:56:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 08:56:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 08:56:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 08:56:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 08:56:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 08:56:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 08:58:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:00:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:01:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:01:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:01:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:01:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:01:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:01:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:01:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:01:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:01:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:01:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:01:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:01:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:02:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:03:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:05:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:05:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:05:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:06:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:15:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-28 09:15:55 --> Undefined variable $title
+in APPPATH\Views\partial\header.php on line 5.
+ 1 APPPATH\Views\partial\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\partial\\header.php', 5)
+ 2 APPPATH\Views\partial\template.php(2): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\partial\\header.php')
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\partial\\template.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('partial/template', [], true)
+ 6 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('room/index', [], true)
+ 7 APPPATH\Controllers\RoomController.php(15): view('room/index', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\RoomController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+INFO - 2023-06-28 09:19:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:20:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:22:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:29:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:29:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:30:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:32:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:32:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:32:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:35:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:35:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:35:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:36:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:41:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:41:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:41:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:41:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:41:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:41:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:41:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:41:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:41:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:41:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:41:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:41:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:41:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:41:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:42:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:42:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:42:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:42:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:42:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:42:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:44:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:44:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:44:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:44:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:44:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:44:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:44:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:45:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:45:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:45:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:45:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:45:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:46:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:51:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:55:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:55:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:55:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:58:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:58:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 09:58:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 10:02:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 10:03:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 10:03:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 10:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 10:06:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-28 10:20:04 --> Invalid file: "room/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('room/index.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('room/index', [], true)
+ 3 APPPATH\Controllers\RoomController.php(15): view('room/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\RoomController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+INFO - 2023-06-28 10:20:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 10:20:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 10:20:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 10:20:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 10:20:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 10:23:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 10:23:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 10:23:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 10:23:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 10:39:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 10:39:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 10:39:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 10:39:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 10:39:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 10:39:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 10:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 10:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 10:39:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 10:39:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 10:39:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 10:39:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 10:39:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 10:40:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 10:40:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 10:43:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 10:43:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 10:46:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 10:46:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 10:46:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 10:46:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 10:48:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 10:48:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-28 10:48:59 --> Invalid file: "room/edit.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('room/edit.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('room/edit', [], true)
+ 3 APPPATH\Controllers\RoomController.php(41): view('room/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\RoomController->edit('1')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+CRITICAL - 2023-06-28 10:50:05 --> Invalid file: "room/edit.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('room/edit.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('room/edit', [], true)
+ 3 APPPATH\Controllers\RoomController.php(41): view('room/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\RoomController->edit('1')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+CRITICAL - 2023-06-28 10:50:06 --> Invalid file: "room/edit.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('room/edit.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('room/edit', [], true)
+ 3 APPPATH\Controllers\RoomController.php(41): view('room/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\RoomController->edit('1')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+CRITICAL - 2023-06-28 10:50:07 --> Invalid file: "room/edit.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('room/edit.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('room/edit', [], true)
+ 3 APPPATH\Controllers\RoomController.php(41): view('room/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\RoomController->edit('1')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+CRITICAL - 2023-06-28 10:50:07 --> Invalid file: "room/edit.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('room/edit.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('room/edit', [], true)
+ 3 APPPATH\Controllers\RoomController.php(41): view('room/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\RoomController->edit('1')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+CRITICAL - 2023-06-28 10:50:07 --> Invalid file: "room/edit.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('room/edit.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('room/edit', [], true)
+ 3 APPPATH\Controllers\RoomController.php(41): view('room/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\RoomController->edit('1')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+CRITICAL - 2023-06-28 10:50:07 --> Invalid file: "room/edit.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('room/edit.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('room/edit', [], true)
+ 3 APPPATH\Controllers\RoomController.php(41): view('room/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\RoomController->edit('1')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+INFO - 2023-06-28 10:51:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 10:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 10:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 10:52:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 10:54:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 10:54:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 10:54:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 10:54:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 10:54:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 10:54:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-28 11:23:06 --> [DEPRECATED] password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in APPPATH\Controllers\AuthController.php on line 23.
+ 1 APPPATH\Controllers\AuthController.php(23): password_hash(null, '2y')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AuthController->register()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+ERROR - 2023-06-28 11:23:06 --> mysqli_sql_exception: Column 'username' cannot be null in C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\app\Controllers\AuthController.php(33): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\CodeIgniter.php(932): App\Controllers\AuthController->register()
+#10 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#11 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\D...')
+#14 {main}
+CRITICAL - 2023-06-28 11:23:06 --> Column 'username' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `user` (`username`, `password`, `nama`, `email`, `nomor_telepon`, `role`) VALUES (NULL, \'$2y$10$QdWLTSdBTTju4N4nhk4cieyA5BXNLm2T0hJaUD.1ZHceKcYDRL55u\', NULL, NULL, NULL, \'user\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user` (`username`, `password`, `nama`, `email`, `nomor_telepon`, `role`) VALUES (NULL, \'$2y$10$QdWLTSdBTTju4N4nhk4cieyA5BXNLm2T0hJaUD.1ZHceKcYDRL55u\', NULL, NULL, NULL, \'user\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`username`, `password`, `nama`, `email`, `nomor_telepon`, `role`) VALUES (NULL, \'$2y$10$QdWLTSdBTTju4N4nhk4cieyA5BXNLm2T0hJaUD.1ZHceKcYDRL55u\', NULL, NULL, NULL, \'user\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`username`, `password`, `nama`, `email`, `nomor_telepon`, `role`) VALUES (:username:, :password:, :nama:, :email:, :nomor_telepon:, :role:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\AuthController.php(33): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AuthController->register()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+CRITICAL - 2023-06-28 11:28:17 --> Object of class CodeIgniter\Router\RouteCollection could not be converted to string
+in APPPATH\Config\Routes.php on line 35.
+ 1 SYSTEMPATH\Router\RouteCollection.php(267): require()
+ 2 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+CRITICAL - 2023-06-28 11:28:52 --> Object of class CodeIgniter\Router\RouteCollection could not be converted to string
+in APPPATH\Config\Routes.php on line 35.
+ 1 SYSTEMPATH\Router\RouteCollection.php(267): require()
+ 2 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+CRITICAL - 2023-06-28 11:29:23 --> Object of class CodeIgniter\Router\RouteCollection could not be converted to string
+in APPPATH\Config\Routes.php on line 35.
+ 1 SYSTEMPATH\Router\RouteCollection.php(267): require()
+ 2 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+INFO - 2023-06-28 11:30:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-28 11:30:51 --> Call to undefined function form_open()
+in APPPATH\Views\auth\login.php on line 13.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('auth/login', [], true)
+ 4 APPPATH\Controllers\AuthController.php(15): view('auth/login')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AuthController->login()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+INFO - 2023-06-28 11:34:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 11:34:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 11:37:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 11:40:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 11:41:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-28 11:41:53 --> mysqli_sql_exception: Table 'fp_pwl.users' doesn't exist in C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Validation\Validation.php(278): CodeIgniter\Validation\StrictRules\Rules->is_unique('abhi', 'username', Array, NULL, 'username')
+#6 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Validation\Validation.php(182): CodeIgniter\Validation\Validation->processRules('username', 'username', 'abhi', Array, Array)
+#7 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\app\Controllers\AuthController.php(85): CodeIgniter\Controller->validate(Array)
+#9 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\CodeIgniter.php(932): App\Controllers\AuthController->processRegister()
+#10 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#11 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\D...')
+#14 {main}
+CRITICAL - 2023-06-28 11:41:53 --> Table 'fp_pwl.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1
+FROM `users`
+WHERE `username` = \'abhi\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `users`
+WHERE `username` = \'abhi\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `users`
+WHERE `username` = \'abhi\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(278): CodeIgniter\Validation\StrictRules\Rules->is_unique('abhi', 'username', [...], null, 'username')
+ 7 SYSTEMPATH\Validation\Validation.php(182): CodeIgniter\Validation\Validation->processRules('username', 'username', 'abhi', [...], [...])
+ 8 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\AuthController.php(85): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AuthController->processRegister()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+ERROR - 2023-06-28 11:42:25 --> mysqli_sql_exception: Table 'fp_pwl.users' doesn't exist in C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Validation\Validation.php(278): CodeIgniter\Validation\StrictRules\Rules->is_unique('abhi', 'username', Array, NULL, 'username')
+#6 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Validation\Validation.php(182): CodeIgniter\Validation\Validation->processRules('username', 'username', 'abhi', Array, Array)
+#7 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\app\Controllers\AuthController.php(85): CodeIgniter\Controller->validate(Array)
+#9 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\CodeIgniter.php(932): App\Controllers\AuthController->processRegister()
+#10 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#11 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\D...')
+#14 {main}
+CRITICAL - 2023-06-28 11:42:25 --> Table 'fp_pwl.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1
+FROM `users`
+WHERE `username` = \'abhi\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `users`
+WHERE `username` = \'abhi\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `users`
+WHERE `username` = \'abhi\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(278): CodeIgniter\Validation\StrictRules\Rules->is_unique('abhi', 'username', [...], null, 'username')
+ 7 SYSTEMPATH\Validation\Validation.php(182): CodeIgniter\Validation\Validation->processRules('username', 'username', 'abhi', [...], [...])
+ 8 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\AuthController.php(85): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AuthController->processRegister()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+INFO - 2023-06-28 11:42:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 11:42:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-28 11:42:50 --> mysqli_sql_exception: Table 'fp_pwl.users' doesn't exist in C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Validation\Validation.php(278): CodeIgniter\Validation\StrictRules\Rules->is_unique('admin', 'username', Array, NULL, 'username')
+#6 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Validation\Validation.php(182): CodeIgniter\Validation\Validation->processRules('username', 'username', 'admin', Array, Array)
+#7 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\app\Controllers\AuthController.php(85): CodeIgniter\Controller->validate(Array)
+#9 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\CodeIgniter.php(932): App\Controllers\AuthController->processRegister()
+#10 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#11 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\D...')
+#14 {main}
+CRITICAL - 2023-06-28 11:42:50 --> Table 'fp_pwl.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1
+FROM `users`
+WHERE `username` = \'admin\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `users`
+WHERE `username` = \'admin\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `users`
+WHERE `username` = \'admin\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(278): CodeIgniter\Validation\StrictRules\Rules->is_unique('admin', 'username', [...], null, 'username')
+ 7 SYSTEMPATH\Validation\Validation.php(182): CodeIgniter\Validation\Validation->processRules('username', 'username', 'admin', [...], [...])
+ 8 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\AuthController.php(85): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AuthController->processRegister()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+INFO - 2023-06-28 11:44:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 11:44:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-28 11:44:41 --> mysqli_sql_exception: Table 'fp_pwl.users' doesn't exist in C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Validation\Validation.php(278): CodeIgniter\Validation\StrictRules\Rules->is_unique('admin', 'username', Array, NULL, 'username')
+#6 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Validation\Validation.php(182): CodeIgniter\Validation\Validation->processRules('username', 'username', 'admin', Array, Array)
+#7 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\app\Controllers\AuthController.php(85): CodeIgniter\Controller->validate(Array)
+#9 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\CodeIgniter.php(932): App\Controllers\AuthController->processRegister()
+#10 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#11 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\D...')
+#14 {main}
+CRITICAL - 2023-06-28 11:44:41 --> Table 'fp_pwl.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1
+FROM `users`
+WHERE `username` = \'admin\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `users`
+WHERE `username` = \'admin\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `users`
+WHERE `username` = \'admin\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(278): CodeIgniter\Validation\StrictRules\Rules->is_unique('admin', 'username', [...], null, 'username')
+ 7 SYSTEMPATH\Validation\Validation.php(182): CodeIgniter\Validation\Validation->processRules('username', 'username', 'admin', [...], [...])
+ 8 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\AuthController.php(85): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AuthController->processRegister()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+ERROR - 2023-06-28 11:45:31 --> mysqli_sql_exception: Table 'fp_pwl.users' doesn't exist in C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Validation\Validation.php(278): CodeIgniter\Validation\StrictRules\Rules->is_unique('admin', 'username', Array, NULL, 'username')
+#6 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Validation\Validation.php(182): CodeIgniter\Validation\Validation->processRules('username', 'username', 'admin', Array, Array)
+#7 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\app\Controllers\AuthController.php(85): CodeIgniter\Controller->validate(Array)
+#9 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\CodeIgniter.php(932): App\Controllers\AuthController->processRegister()
+#10 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#11 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\D...')
+#14 {main}
+CRITICAL - 2023-06-28 11:45:31 --> Table 'fp_pwl.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1
+FROM `users`
+WHERE `username` = \'admin\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `users`
+WHERE `username` = \'admin\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `users`
+WHERE `username` = \'admin\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(278): CodeIgniter\Validation\StrictRules\Rules->is_unique('admin', 'username', [...], null, 'username')
+ 7 SYSTEMPATH\Validation\Validation.php(182): CodeIgniter\Validation\Validation->processRules('username', 'username', 'admin', [...], [...])
+ 8 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\AuthController.php(85): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AuthController->processRegister()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+INFO - 2023-06-28 11:47:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 11:47:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 11:48:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 11:48:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 11:48:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 11:48:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 11:52:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 11:53:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 11:53:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 11:53:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 11:54:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 11:54:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 11:56:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 11:56:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 11:56:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 11:56:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 11:56:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 11:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 11:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 12:00:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 12:06:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 12:06:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 12:06:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 12:06:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 12:16:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 12:26:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 12:26:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 15:51:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 15:52:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 15:53:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 15:54:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 15:54:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 15:54:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 16:29:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 16:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 16:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 16:29:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 16:37:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 16:37:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 16:37:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 16:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 16:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 16:37:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 16:40:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 16:40:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 16:40:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 16:50:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 16:50:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 16:50:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 16:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 16:57:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 16:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 16:57:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 16:57:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 16:57:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 16:58:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 16:58:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 16:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 16:59:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 16:59:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 16:59:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 16:59:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 16:59:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 16:59:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 16:59:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 16:59:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 16:59:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 16:59:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:02:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:03:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:03:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:03:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:03:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:03:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:04:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:05:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:05:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:05:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:11:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:11:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:11:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:11:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:12:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:12:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:25:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:25:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:25:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:25:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:25:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:27:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:28:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:28:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:29:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:29:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:29:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:29:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:29:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:29:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:29:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:29:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:29:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:29:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:29:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:30:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:30:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:30:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:31:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:31:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:31:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:31:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:38:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:39:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:39:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:39:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:43:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:43:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:43:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:44:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:44:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:44:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:53:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:53:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:53:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:59:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:59:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 18:00:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 18:00:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 18:00:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 18:09:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 18:09:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 18:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 18:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 18:10:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 18:10:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 18:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 18:21:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 18:24:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 18:24:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

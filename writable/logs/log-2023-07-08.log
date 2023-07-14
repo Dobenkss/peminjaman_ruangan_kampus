@@ -1,0 +1,936 @@
+INFO - 2023-07-08 00:35:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 00:37:18 --> CSRF token verified.
+INFO - 2023-07-08 00:37:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 00:37:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 00:41:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 00:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 00:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 00:42:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 00:42:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 00:42:32 --> CSRF token verified.
+INFO - 2023-07-08 00:42:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 00:43:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 00:43:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 00:43:37 --> CSRF token verified.
+INFO - 2023-07-08 00:43:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 00:43:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 00:43:44 --> CSRF token verified.
+INFO - 2023-07-08 00:43:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 00:43:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 00:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 00:52:49 --> CSRF token verified.
+INFO - 2023-07-08 00:52:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 00:52:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 00:53:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 00:53:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 00:57:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 00:57:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 00:57:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 00:58:04 --> CSRF token verified.
+INFO - 2023-07-08 00:58:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 00:58:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 00:58:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 00:58:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 00:58:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 00:58:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 00:58:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 00:58:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 00:58:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 00:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 00:58:41 --> CSRF token verified.
+INFO - 2023-07-08 00:58:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-08 00:59:24 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run('booking/register/store', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+CRITICAL - 2023-07-08 01:00:08 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run('booking/register/store', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+INFO - 2023-07-08 01:00:24 --> CSRF token verified.
+INFO - 2023-07-08 01:00:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 01:00:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 01:00:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 01:00:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 01:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 02:12:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 02:12:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 02:14:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 02:14:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 02:14:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 02:14:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 02:14:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 02:14:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 02:14:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 02:14:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 02:14:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 02:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 02:17:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 02:18:01 --> CSRF token verified.
+INFO - 2023-07-08 02:18:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-08 02:18:02 --> Undefined array key "gambar"
+in APPPATH\Views\anggota\booking.php on line 27.
+ 1 APPPATH\Views\anggota\booking.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "gambar"', 'C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\anggota\\booking.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\anggota\\booking.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('anggota/booking', [], true)
+ 5 APPPATH\Controllers\RoomController.php(15): view('anggota/booking', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\RoomController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+INFO - 2023-07-08 02:18:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 02:19:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 02:19:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 02:19:39 --> CSRF token verified.
+INFO - 2023-07-08 02:19:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 02:19:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 02:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 02:20:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 02:20:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 02:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 02:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 02:23:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 02:23:44 --> CSRF token verified.
+CRITICAL - 2023-07-08 02:23:44 --> Call to a member function isValid() on null
+in APPPATH\Controllers\RoomController.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\RoomController->store()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+INFO - 2023-07-08 02:28:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 02:28:44 --> CSRF token verified.
+CRITICAL - 2023-07-08 02:28:44 --> Call to a member function isValid() on null
+in APPPATH\Controllers\RoomController.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\RoomController->store()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+INFO - 2023-07-08 02:30:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 02:30:54 --> CSRF token verified.
+CRITICAL - 2023-07-08 02:30:54 --> Call to a member function isValid() on null
+in APPPATH\Controllers\RoomController.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\RoomController->store()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+INFO - 2023-07-08 02:39:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 02:39:35 --> CSRF token verified.
+CRITICAL - 2023-07-08 02:39:35 --> "rooms" is not a validation rules group.
+in SYSTEMPATH\Validation\Validation.php on line 679.
+ 1 SYSTEMPATH\Validation\Validation.php(679): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('rooms')
+ 2 SYSTEMPATH\Validation\Validation.php(131): CodeIgniter\Validation\Validation->loadRuleGroup('rooms')
+ 3 APPPATH\Controllers\RoomController.php(33): CodeIgniter\Validation\Validation->run([...], 'rooms')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\RoomController->store()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+INFO - 2023-07-08 02:44:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 02:44:47 --> CSRF token verified.
+CRITICAL - 2023-07-08 02:44:47 --> "rooms" is not a validation rules group.
+in SYSTEMPATH\Validation\Validation.php on line 679.
+ 1 SYSTEMPATH\Validation\Validation.php(679): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('rooms')
+ 2 SYSTEMPATH\Validation\Validation.php(131): CodeIgniter\Validation\Validation->loadRuleGroup('rooms')
+ 3 APPPATH\Controllers\RoomController.php(33): CodeIgniter\Validation\Validation->run([...], 'rooms')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\RoomController->store()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+INFO - 2023-07-08 02:47:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 02:47:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 02:47:29 --> CSRF token verified.
+CRITICAL - 2023-07-08 02:47:29 --> "rooms" is not a validation rules group.
+in SYSTEMPATH\Validation\Validation.php on line 679.
+ 1 SYSTEMPATH\Validation\Validation.php(679): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('rooms')
+ 2 SYSTEMPATH\Validation\Validation.php(131): CodeIgniter\Validation\Validation->loadRuleGroup('rooms')
+ 3 APPPATH\Controllers\RoomController.php(33): CodeIgniter\Validation\Validation->run([...], 'rooms')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\RoomController->store()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+INFO - 2023-07-08 02:48:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 02:48:22 --> CSRF token verified.
+CRITICAL - 2023-07-08 02:48:22 --> "group:rooms" is not a validation rules group.
+in SYSTEMPATH\Validation\Validation.php on line 679.
+ 1 SYSTEMPATH\Validation\Validation.php(679): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('group:rooms')
+ 2 SYSTEMPATH\Validation\Validation.php(131): CodeIgniter\Validation\Validation->loadRuleGroup('group:rooms')
+ 3 APPPATH\Controllers\RoomController.php(33): CodeIgniter\Validation\Validation->run([...], 'group:rooms')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\RoomController->store()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+INFO - 2023-07-08 02:50:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 02:50:21 --> CSRF token verified.
+CRITICAL - 2023-07-08 02:50:21 --> Undefined property: CodeIgniter\Validation\Validation::$rooms
+in APPPATH\Controllers\RoomController.php on line 33.
+ 1 APPPATH\Controllers\RoomController.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Validation\\Validation::$rooms', 'C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Controllers\\RoomController.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\RoomController->store()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+INFO - 2023-07-08 02:53:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 02:53:47 --> CSRF token verified.
+INFO - 2023-07-08 02:53:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 02:53:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 02:54:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 02:54:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 02:54:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 02:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 02:55:02 --> CSRF token verified.
+INFO - 2023-07-08 02:55:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 02:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 02:55:53 --> CSRF token verified.
+INFO - 2023-07-08 02:55:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 02:55:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 02:57:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 02:57:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 05:34:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 05:34:27 --> CSRF token verified.
+INFO - 2023-07-08 05:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 05:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 05:34:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 05:34:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 05:34:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 05:35:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 05:35:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 05:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 05:44:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 05:44:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 05:44:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 05:44:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 05:45:16 --> CSRF token verified.
+CRITICAL - 2023-07-08 05:45:16 --> Call to undefined method CodeIgniter\HTTP\Files\UploadedFile::extension()
+in APPPATH\Controllers\RoomController.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\RoomController->store()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+INFO - 2023-07-08 05:46:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 05:46:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 05:46:39 --> CSRF token verified.
+CRITICAL - 2023-07-08 05:46:39 --> Call to undefined function App\Controllers\public_path()
+in APPPATH\Controllers\RoomController.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\RoomController->store()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+INFO - 2023-07-08 05:48:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 05:48:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 05:48:15 --> CSRF token verified.
+CRITICAL - 2023-07-08 05:48:15 --> fopen(http://localhost:8080/image/index.html): Failed to open stream: HTTP wrapper does not support writeable connections
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 179.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://localhost:8080/image/index.html): Failed to open stream: HTTP wrapper does not support writeable connections', 'C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\system\\HTTP\\Files\\UploadedFile.php', 179)
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(179): fopen('http://localhost:8080/image/index.html', 'x+b')
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('http://localhost:8080/image/')
+ 4 APPPATH\Controllers\RoomController.php(37): CodeIgniter\HTTP\Files\UploadedFile->move('http://localhost:8080/image/', '230708054815.jpg')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\RoomController->store()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+INFO - 2023-07-08 05:50:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 05:50:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 05:50:20 --> CSRF token verified.
+CRITICAL - 2023-07-08 05:50:20 --> mkdir(): No such file or directory
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 176.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No such file or directory', 'C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\system\\HTTP\\Files\\UploadedFile.php', 176)
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(176): mkdir('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\writable\\uploads/C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\image/', 511, true)
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\writable\\uploads/C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\image/')
+ 4 SYSTEMPATH\HTTP\Files\UploadedFile.php(341): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\writable\\uploads/C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\image/', '230708055020.jpg')
+ 5 APPPATH\Controllers\RoomController.php(41): CodeIgniter\HTTP\Files\UploadedFile->store('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\image/', '230708055020.jpg')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\RoomController->store()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+INFO - 2023-07-08 05:51:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 05:51:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 05:51:30 --> CSRF token verified.
+CRITICAL - 2023-07-08 05:51:30 --> mkdir(): No such file or directory
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 176.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No such file or directory', 'C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\system\\HTTP\\Files\\UploadedFile.php', 176)
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(176): mkdir('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\writable\\uploads/C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\image/', 511, true)
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\writable\\uploads/C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\image/')
+ 4 SYSTEMPATH\HTTP\Files\UploadedFile.php(341): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\writable\\uploads/C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\image/', '230708055130.jpg')
+ 5 APPPATH\Controllers\RoomController.php(47): CodeIgniter\HTTP\Files\UploadedFile->store('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\image/', '230708055130.jpg')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\RoomController->store()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+INFO - 2023-07-08 05:52:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 05:52:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 05:52:56 --> CSRF token verified.
+CRITICAL - 2023-07-08 05:52:56 --> mkdir(): No such file or directory
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 176.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No such file or directory', 'C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\system\\HTTP\\Files\\UploadedFile.php', 176)
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(176): mkdir('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\writable\\uploads/C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\image/', 511, true)
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\writable\\uploads/C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\image/')
+ 4 SYSTEMPATH\HTTP\Files\UploadedFile.php(341): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\writable\\uploads/C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\image/', '230708055256.jpg')
+ 5 APPPATH\Controllers\RoomController.php(51): CodeIgniter\HTTP\Files\UploadedFile->store('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\image/', '230708055256.jpg')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\RoomController->store()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+INFO - 2023-07-08 06:02:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 06:02:44 --> CSRF token verified.
+INFO - 2023-07-08 06:02:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 06:02:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 06:04:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 06:07:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 06:07:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 06:07:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 06:07:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 06:07:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 06:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 06:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 06:07:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 06:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 06:10:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 06:13:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 06:13:42 --> CSRF token verified.
+INFO - 2023-07-08 06:13:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 06:13:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 06:17:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 06:17:50 --> CSRF token verified.
+INFO - 2023-07-08 06:17:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 06:17:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-08 06:26:57 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\BookingController.php on line 79.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Controllers\\BookingController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\BookingController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\BookingController')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\BookingController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+INFO - 2023-07-08 06:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 06:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 06:28:28 --> CSRF token verified.
+INFO - 2023-07-08 06:28:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 06:28:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 06:30:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 06:30:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 06:30:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 06:31:13 --> CSRF token verified.
+INFO - 2023-07-08 06:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-08 06:31:13 --> Undefined variable $rooms_id
+in APPPATH\Controllers\BookingController.php on line 54.
+ 1 APPPATH\Controllers\BookingController.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rooms_id', 'C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Controllers\\BookingController.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->register()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+INFO - 2023-07-08 06:33:06 --> CSRF token verified.
+INFO - 2023-07-08 06:33:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-08 06:33:06 --> Undefined variable $rooms_id
+in APPPATH\Controllers\BookingController.php on line 64.
+ 1 APPPATH\Controllers\BookingController.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rooms_id', 'C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Controllers\\BookingController.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->register()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+INFO - 2023-07-08 06:36:16 --> CSRF token verified.
+INFO - 2023-07-08 06:36:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-08 06:36:16 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`pwl`.`booking`, CONSTRAINT `booking_ibfk_2` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `bo...', 0)
+#1 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bo...')
+#2 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bo...')
+#3 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bo...', Array, false)
+#4 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\app\Controllers\BookingController.php(80): CodeIgniter\Model->insert(Array)
+#8 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\CodeIgniter.php(932): App\Controllers\BookingController->register()
+#9 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+#10 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\D...')
+#13 {main}
+CRITICAL - 2023-07-08 06:36:16 --> Cannot add or update a child row: a foreign key constraint fails (`pwl`.`booking`, CONSTRAINT `booking_ibfk_2` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `booking` (`date_request`, `start_time`, `end_time`, `tujuan`, `status`, `no_wa`) VALUES (\'2023-07-08\', \'14:35\', \'15:36\', \'hahahahahahaa\', \'pending\', \'6281927173726\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `booking` (`date_request`, `start_time`, `end_time`, `tujuan`, `status`, `no_wa`) VALUES (\'2023-07-08\', \'14:35\', \'15:36\', \'hahahahahahaa\', \'pending\', \'6281927173726\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `booking` (`date_request`, `start_time`, `end_time`, `tujuan`, `status`, `no_wa`) VALUES (\'2023-07-08\', \'14:35\', \'15:36\', \'hahahahahahaa\', \'pending\', \'6281927173726\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `booking` (`date_request`, `start_time`, `end_time`, `tujuan`, `status`, `no_wa`) VALUES (:date_request:, :start_time:, :end_time:, :tujuan:, :status:, :no_wa:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\BookingController.php(80): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->register()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+INFO - 2023-07-08 06:41:55 --> CSRF token verified.
+INFO - 2023-07-08 06:41:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 06:42:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 06:42:59 --> CSRF token verified.
+INFO - 2023-07-08 06:42:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 06:44:31 --> CSRF token verified.
+INFO - 2023-07-08 06:44:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 06:44:57 --> CSRF token verified.
+INFO - 2023-07-08 06:44:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 06:46:32 --> CSRF token verified.
+INFO - 2023-07-08 06:46:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 06:52:59 --> CSRF token verified.
+INFO - 2023-07-08 06:52:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 06:52:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-08 06:52:59 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `end_time` > IS NULL
+ LIMIT 1' at line 4 in C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\app\Controllers\BookingController.php(60): CodeIgniter\BaseModel->first()
+#7 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\CodeIgniter.php(932): App\Controllers\BookingController->register()
+#8 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+#9 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\D...')
+#12 {main}
+CRITICAL - 2023-07-08 06:52:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `end_time` > IS NULL
+ LIMIT 1' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `booking`
+WHERE `date_request` IS NULL
+AND `start_time` < IS NULL
+AND `end_time` > IS NULL
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `booking`
+WHERE `date_request` IS NULL
+AND `start_time` < IS NULL
+AND `end_time` > IS NULL
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `booking`
+WHERE `date_request` IS NULL
+AND `start_time` < IS NULL
+AND `end_time` > IS NULL
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `booking`
+WHERE `date_request` IS NULL
+AND `start_time` < IS NULL
+AND `end_time` > IS NULL
+ LIMIT 1', [], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\BookingController.php(60): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->register()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+INFO - 2023-07-08 06:58:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 06:58:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 06:58:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 06:58:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 06:58:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 06:58:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 06:58:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 06:58:39 --> CSRF token verified.
+INFO - 2023-07-08 06:58:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 06:58:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 06:58:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 06:58:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 06:58:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 06:58:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 06:58:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 06:59:00 --> CSRF token verified.
+INFO - 2023-07-08 06:59:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 06:59:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 06:59:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 06:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 07:05:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 07:05:42 --> CSRF token verified.
+INFO - 2023-07-08 07:05:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 07:05:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 07:05:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 07:05:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 07:06:00 --> CSRF token verified.
+INFO - 2023-07-08 07:06:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 07:06:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 07:06:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 07:06:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 07:06:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 07:06:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 07:06:38 --> CSRF token verified.
+INFO - 2023-07-08 07:06:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 07:06:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 07:06:38 --> CSRF token verified.
+INFO - 2023-07-08 07:06:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 07:06:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 07:06:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 07:06:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 07:06:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 07:06:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 07:07:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 07:07:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-08 07:09:33 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\RoomController.php on line 22.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Controllers\\RoomController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\RoomController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\RoomController')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\RoomController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+CRITICAL - 2023-07-08 07:09:34 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\RoomController.php on line 22.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Controllers\\RoomController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\RoomController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\RoomController')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\RoomController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+INFO - 2023-07-08 07:09:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 07:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 10:42:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 10:43:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 10:43:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 10:44:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 10:47:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 10:48:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 10:48:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 10:48:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 10:48:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 10:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 10:48:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 10:48:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 10:49:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 10:49:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 10:49:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 10:49:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 10:49:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 10:49:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 10:49:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 10:49:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 10:49:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 10:49:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 10:49:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 10:49:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 10:49:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 10:49:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 10:49:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 10:49:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 10:49:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 10:49:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:02:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:02:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:03:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:03:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-08 11:03:09 --> Undefined array key "ruangan"
+in APPPATH\Views\anggota\register_booking.php on line 14.
+ 1 APPPATH\Views\anggota\register_booking.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ruangan"', 'C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\anggota\\register_booking.php', 14)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\anggota\\register_booking.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('anggota/register_booking', [], true)
+ 5 APPPATH\Controllers\BookingController.php(34): view('anggota/register_booking', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->RegistrationForm()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+INFO - 2023-07-08 11:09:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:09:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:09:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-08 11:09:58 --> syntax error, unexpected token "endforeach", expecting end of file
+in APPPATH\Views\anggota\register_booking.php on line 45.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('anggota/register_booking', [], true)
+ 3 APPPATH\Controllers\BookingController.php(34): view('anggota/register_booking', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->RegistrationForm()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+INFO - 2023-07-08 11:17:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:17:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-08 11:17:37 --> Undefined variable $rooms
+in APPPATH\Views\anggota\register_booking.php on line 12.
+ 1 APPPATH\Views\anggota\register_booking.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rooms', 'C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\anggota\\register_booking.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\anggota\\register_booking.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('anggota/register_booking', [], true)
+ 5 APPPATH\Controllers\BookingController.php(34): view('anggota/register_booking', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->RegistrationForm()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+INFO - 2023-07-08 11:18:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:18:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:18:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:18:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:18:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:18:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:18:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-08 11:18:39 --> Undefined array key "id"
+in APPPATH\Views\anggota\register_booking.php on line 40.
+ 1 APPPATH\Views\anggota\register_booking.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\anggota\\register_booking.php', 40)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\anggota\\register_booking.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('anggota/register_booking', [], true)
+ 5 APPPATH\Controllers\BookingController.php(34): view('anggota/register_booking', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->RegistrationForm()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+INFO - 2023-07-08 11:19:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:26:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:26:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:26:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:26:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:26:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:30:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:30:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:30:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:30:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:30:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:31:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:31:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:31:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:32:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:35:18 --> CSRF token verified.
+INFO - 2023-07-08 11:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:35:27 --> CSRF token verified.
+INFO - 2023-07-08 11:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:36:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:36:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:36:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:36:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:40:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:40:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-08 11:40:14 --> Undefined variable $rooms
+in APPPATH\Views\anggota\booking.php on line 15.
+ 1 APPPATH\Views\anggota\booking.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rooms', 'C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\anggota\\booking.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\anggota\\booking.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('anggota/booking', [], true)
+ 5 APPPATH\Controllers\BookingController.php(32): view('anggota/booking')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->listRooms()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+INFO - 2023-07-08 11:43:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:43:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-08 11:43:58 --> Undefined variable $rooms
+in APPPATH\Views\anggota\booking.php on line 15.
+ 1 APPPATH\Views\anggota\booking.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rooms', 'C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\anggota\\booking.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\anggota\\booking.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('anggota/booking', [], true)
+ 5 APPPATH\Controllers\BookingController.php(32): view('anggota/booking')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->listRooms()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+INFO - 2023-07-08 11:49:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:49:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:49:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:50:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:50:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:50:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:50:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:50:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:50:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:50:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:50:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:50:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:50:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:54:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:54:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:54:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:55:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:55:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:55:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:55:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:55:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:55:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:56:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:56:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:56:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 12:01:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 12:02:03 --> CSRF token verified.
+INFO - 2023-07-08 12:02:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 12:02:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 12:02:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 12:02:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 12:02:27 --> CSRF token verified.
+INFO - 2023-07-08 12:02:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 12:02:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 12:02:35 --> CSRF token verified.
+INFO - 2023-07-08 12:02:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 12:02:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 12:02:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 12:02:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 12:17:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 12:22:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 12:22:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 12:34:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 12:34:31 --> CSRF token verified.
+INFO - 2023-07-08 12:34:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 12:34:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 12:34:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-08 12:34:35 --> Cannot access offset of type string on string
+in APPPATH\Views\anggota\register_booking.php on line 16.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('anggota/register_booking', [], true)
+ 4 APPPATH\Controllers\BookingController.php(40): view('anggota/register_booking', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->RegistrationForm('23')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+INFO - 2023-07-08 12:38:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 12:38:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-08 12:38:06 --> Undefined variable $rooms
+in APPPATH\Views\anggota\register_booking.php on line 12.
+ 1 APPPATH\Views\anggota\register_booking.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rooms', 'C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\anggota\\register_booking.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\anggota\\register_booking.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('anggota/register_booking', [], true)
+ 5 APPPATH\Controllers\BookingController.php(40): view('anggota/register_booking', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->RegistrationForm('23')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+INFO - 2023-07-08 12:38:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 12:40:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 12:40:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 12:40:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-08 12:40:54 --> Undefined variable $rooms
+in APPPATH\Views\anggota\register_booking.php on line 12.
+ 1 APPPATH\Views\anggota\register_booking.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rooms', 'C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\anggota\\register_booking.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\anggota\\register_booking.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('anggota/register_booking', [], true)
+ 5 APPPATH\Controllers\BookingController.php(40): view('anggota/register_booking', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->RegistrationForm('23')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+INFO - 2023-07-08 15:53:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 15:53:29 --> CSRF token verified.
+ERROR - 2023-07-08 15:53:33 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'pwl', 3306, '', 0)
+#1 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\app\Models\UserModel.php(18): CodeIgniter\BaseModel->first()
+#7 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\app\Controllers\AuthController.php(51): App\Models\UserModel->getUserByUsername('abhi')
+#8 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\CodeIgniter.php(932): App\Controllers\AuthController->processLogin()
+#9 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#10 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\D...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\app\Models\UserModel.php(18): CodeIgniter\BaseModel->first()
+#6 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\app\Controllers\AuthController.php(51): App\Models\UserModel->getUserByUsername('abhi')
+#7 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\CodeIgniter.php(932): App\Controllers\AuthController->processLogin()
+#8 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\D...')
+#12 {main}
+CRITICAL - 2023-07-08 15:53:33 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Models\UserModel.php(18): CodeIgniter\BaseModel->first()
+ 6 APPPATH\Controllers\AuthController.php(51): App\Models\UserModel->getUserByUsername('abhi')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AuthController->processLogin()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+INFO - 2023-07-08 15:53:53 --> CSRF token verified.
+INFO - 2023-07-08 15:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 15:53:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 15:53:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-08 15:54:18 --> Undefined variable $room
+in APPPATH\Views\anggota\booking.php on line 18.
+ 1 APPPATH\Views\anggota\booking.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $room', 'C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\anggota\\booking.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\anggota\\booking.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('anggota/booking', [], true)
+ 5 APPPATH\Controllers\BookingController.php(32): view('anggota/booking', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->listRooms()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+INFO - 2023-07-08 15:54:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 15:54:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 15:55:24 --> CSRF token verified.
+INFO - 2023-07-08 15:55:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 15:55:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 15:55:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 15:56:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 15:56:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-08 16:02:07 --> Invalid file: "admin/rooms/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/rooms/index.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/rooms/index', [], true)
+ 3 APPPATH\Controllers\RoomController.php(15): view('admin/rooms/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\RoomController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+INFO - 2023-07-08 16:02:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:02:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:02:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:02:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:02:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:02:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:03:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:05:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:05:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:05:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:05:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:05:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:06:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:06:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:07:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:22:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:22:09 --> CSRF token verified.
+INFO - 2023-07-08 16:22:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:22:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:22:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:22:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:22:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:22:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:22:43 --> CSRF token verified.
+INFO - 2023-07-08 16:22:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:22:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:22:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:22:56 --> CSRF token verified.
+INFO - 2023-07-08 16:22:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:22:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:22:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:23:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:25:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:27:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:27:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:27:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:27:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:27:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:27:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:27:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:27:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:28:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:28:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:28:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:28:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:30:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:30:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:30:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:30:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:30:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:32:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:34:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:36:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:36:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:37:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:37:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:41:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:42:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:46:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:52:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:55:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:57:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:59:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:59:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:59:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:59:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 16:59:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 17:00:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 17:01:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 17:02:02 --> CSRF token verified.
+INFO - 2023-07-08 17:02:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 17:02:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 17:02:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 17:02:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 17:02:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 17:02:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 17:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 17:04:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 17:04:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 17:04:23 --> CSRF token verified.
+INFO - 2023-07-08 17:04:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 17:04:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 17:04:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 17:04:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 17:05:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,650 @@
+INFO - 2023-07-05 07:10:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-05 07:13:39 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'fp_pwl', 3306, '', 0)
+#1 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\app\Models\UserModel.php(18): CodeIgniter\BaseModel->first()
+#7 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\app\Controllers\AuthController.php(51): App\Models\UserModel->getUserByUsername('admin')
+#8 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\CodeIgniter.php(932): App\Controllers\AuthController->processLogin()
+#9 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#10 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\D...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\app\Models\UserModel.php(18): CodeIgniter\BaseModel->first()
+#6 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\app\Controllers\AuthController.php(51): App\Models\UserModel->getUserByUsername('admin')
+#7 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\CodeIgniter.php(932): App\Controllers\AuthController->processLogin()
+#8 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ASUS\Documents\KULIAH\SEMESTER 4\pwl\code\fp\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\D...')
+#12 {main}
+CRITICAL - 2023-07-05 07:13:39 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Models\UserModel.php(18): CodeIgniter\BaseModel->first()
+ 6 APPPATH\Controllers\AuthController.php(51): App\Models\UserModel->getUserByUsername('admin')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AuthController->processLogin()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+INFO - 2023-07-05 07:22:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 07:22:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-05 07:35:48 --> Undefined array key "email"
+in APPPATH\Views\admin\booking\index.php on line 209.
+ 1 APPPATH\Views\admin\booking\index.php(209): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php', 209)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/booking/index', [], true)
+ 5 APPPATH\Controllers\BookingController.php(28): view('admin/booking/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+CRITICAL - 2023-07-05 07:42:01 --> Undefined variable $users
+in APPPATH\Views\admin\booking\index.php on line 209.
+ 1 APPPATH\Views\admin\booking\index.php(209): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php', 209)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/booking/index', [], true)
+ 5 APPPATH\Controllers\BookingController.php(28): view('admin/booking/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+CRITICAL - 2023-07-05 07:58:20 --> Undefined array key "whatsapp_number"
+in APPPATH\Views\admin\booking\index.php on line 219.
+ 1 APPPATH\Views\admin\booking\index.php(219): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "whatsapp_number"', 'C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php', 219)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/booking/index', [], true)
+ 5 APPPATH\Controllers\BookingController.php(34): view('admin/booking/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+INFO - 2023-07-05 07:59:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 08:00:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 08:01:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 08:01:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 08:01:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 08:02:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 08:02:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 08:02:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 08:02:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 08:03:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 08:03:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 08:03:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 08:03:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 08:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 08:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 08:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 08:13:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 08:13:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 08:22:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 08:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 08:23:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 08:24:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 08:24:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 08:24:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 08:24:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 08:24:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 08:32:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 08:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 08:32:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 08:33:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-05 08:33:04 --> Undefined array key "user"
+in APPPATH\Views\admin\booking\index.php on line 211.
+ 1 APPPATH\Views\admin\booking\index.php(211): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user"', 'C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php', 211)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/booking/index', [], true)
+ 5 APPPATH\Controllers\BookingController.php(34): view('admin/booking/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+CRITICAL - 2023-07-05 08:33:25 --> Undefined array key "users"
+in APPPATH\Views\admin\booking\index.php on line 228.
+ 1 APPPATH\Views\admin\booking\index.php(228): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "users"', 'C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php', 228)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/booking/index', [], true)
+ 5 APPPATH\Controllers\BookingController.php(34): view('admin/booking/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+CRITICAL - 2023-07-05 08:33:41 --> Undefined array key "nomor_telepon"
+in APPPATH\Views\admin\booking\index.php on line 228.
+ 1 APPPATH\Views\admin\booking\index.php(228): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nomor_telepon"', 'C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php', 228)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/booking/index', [], true)
+ 5 APPPATH\Controllers\BookingController.php(34): view('admin/booking/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+CRITICAL - 2023-07-05 08:33:41 --> Undefined array key "nomor_telepon"
+in APPPATH\Views\admin\booking\index.php on line 228.
+ 1 APPPATH\Views\admin\booking\index.php(228): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nomor_telepon"', 'C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php', 228)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/booking/index', [], true)
+ 5 APPPATH\Controllers\BookingController.php(34): view('admin/booking/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+CRITICAL - 2023-07-05 08:33:41 --> Undefined array key "nomor_telepon"
+in APPPATH\Views\admin\booking\index.php on line 228.
+ 1 APPPATH\Views\admin\booking\index.php(228): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nomor_telepon"', 'C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php', 228)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/booking/index', [], true)
+ 5 APPPATH\Controllers\BookingController.php(34): view('admin/booking/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+CRITICAL - 2023-07-05 08:33:42 --> Undefined array key "nomor_telepon"
+in APPPATH\Views\admin\booking\index.php on line 228.
+ 1 APPPATH\Views\admin\booking\index.php(228): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nomor_telepon"', 'C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php', 228)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/booking/index', [], true)
+ 5 APPPATH\Controllers\BookingController.php(34): view('admin/booking/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+CRITICAL - 2023-07-05 08:33:59 --> Undefined array key "nomor_telepon"
+in APPPATH\Views\admin\booking\index.php on line 228.
+ 1 APPPATH\Views\admin\booking\index.php(228): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nomor_telepon"', 'C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php', 228)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/booking/index', [], true)
+ 5 APPPATH\Controllers\BookingController.php(34): view('admin/booking/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+CRITICAL - 2023-07-05 08:34:02 --> Undefined array key "nomor_telepon"
+in APPPATH\Views\admin\booking\index.php on line 228.
+ 1 APPPATH\Views\admin\booking\index.php(228): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nomor_telepon"', 'C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php', 228)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/booking/index', [], true)
+ 5 APPPATH\Controllers\BookingController.php(34): view('admin/booking/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+CRITICAL - 2023-07-05 08:34:02 --> Undefined array key "nomor_telepon"
+in APPPATH\Views\admin\booking\index.php on line 228.
+ 1 APPPATH\Views\admin\booking\index.php(228): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nomor_telepon"', 'C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php', 228)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/booking/index', [], true)
+ 5 APPPATH\Controllers\BookingController.php(34): view('admin/booking/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+CRITICAL - 2023-07-05 08:34:02 --> Undefined array key "nomor_telepon"
+in APPPATH\Views\admin\booking\index.php on line 228.
+ 1 APPPATH\Views\admin\booking\index.php(228): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nomor_telepon"', 'C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php', 228)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/booking/index', [], true)
+ 5 APPPATH\Controllers\BookingController.php(34): view('admin/booking/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+CRITICAL - 2023-07-05 08:34:03 --> Undefined array key "nomor_telepon"
+in APPPATH\Views\admin\booking\index.php on line 228.
+ 1 APPPATH\Views\admin\booking\index.php(228): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nomor_telepon"', 'C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php', 228)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/booking/index', [], true)
+ 5 APPPATH\Controllers\BookingController.php(34): view('admin/booking/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+CRITICAL - 2023-07-05 08:34:03 --> Undefined array key "nomor_telepon"
+in APPPATH\Views\admin\booking\index.php on line 228.
+ 1 APPPATH\Views\admin\booking\index.php(228): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nomor_telepon"', 'C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php', 228)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/booking/index', [], true)
+ 5 APPPATH\Controllers\BookingController.php(34): view('admin/booking/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+CRITICAL - 2023-07-05 08:34:03 --> Undefined array key "nomor_telepon"
+in APPPATH\Views\admin\booking\index.php on line 228.
+ 1 APPPATH\Views\admin\booking\index.php(228): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nomor_telepon"', 'C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php', 228)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/booking/index', [], true)
+ 5 APPPATH\Controllers\BookingController.php(34): view('admin/booking/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+CRITICAL - 2023-07-05 08:36:21 --> Undefined array key "users"
+in APPPATH\Views\admin\booking\index.php on line 228.
+ 1 APPPATH\Views\admin\booking\index.php(228): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "users"', 'C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php', 228)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/booking/index', [], true)
+ 5 APPPATH\Controllers\BookingController.php(34): view('admin/booking/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+CRITICAL - 2023-07-05 08:36:22 --> Undefined array key "users"
+in APPPATH\Views\admin\booking\index.php on line 228.
+ 1 APPPATH\Views\admin\booking\index.php(228): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "users"', 'C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php', 228)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/booking/index', [], true)
+ 5 APPPATH\Controllers\BookingController.php(34): view('admin/booking/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+CRITICAL - 2023-07-05 08:36:22 --> Undefined array key "users"
+in APPPATH\Views\admin\booking\index.php on line 228.
+ 1 APPPATH\Views\admin\booking\index.php(228): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "users"', 'C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php', 228)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/booking/index', [], true)
+ 5 APPPATH\Controllers\BookingController.php(34): view('admin/booking/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+CRITICAL - 2023-07-05 08:36:22 --> Undefined array key "users"
+in APPPATH\Views\admin\booking\index.php on line 228.
+ 1 APPPATH\Views\admin\booking\index.php(228): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "users"', 'C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php', 228)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/booking/index', [], true)
+ 5 APPPATH\Controllers\BookingController.php(34): view('admin/booking/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+CRITICAL - 2023-07-05 08:36:22 --> Undefined array key "users"
+in APPPATH\Views\admin\booking\index.php on line 228.
+ 1 APPPATH\Views\admin\booking\index.php(228): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "users"', 'C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php', 228)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/booking/index', [], true)
+ 5 APPPATH\Controllers\BookingController.php(34): view('admin/booking/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+CRITICAL - 2023-07-05 08:36:23 --> Undefined array key "users"
+in APPPATH\Views\admin\booking\index.php on line 228.
+ 1 APPPATH\Views\admin\booking\index.php(228): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "users"', 'C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php', 228)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/booking/index', [], true)
+ 5 APPPATH\Controllers\BookingController.php(34): view('admin/booking/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+CRITICAL - 2023-07-05 08:36:23 --> Undefined array key "users"
+in APPPATH\Views\admin\booking\index.php on line 228.
+ 1 APPPATH\Views\admin\booking\index.php(228): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "users"', 'C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php', 228)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/booking/index', [], true)
+ 5 APPPATH\Controllers\BookingController.php(34): view('admin/booking/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+CRITICAL - 2023-07-05 08:36:23 --> Undefined array key "users"
+in APPPATH\Views\admin\booking\index.php on line 228.
+ 1 APPPATH\Views\admin\booking\index.php(228): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "users"', 'C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php', 228)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/booking/index', [], true)
+ 5 APPPATH\Controllers\BookingController.php(34): view('admin/booking/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+CRITICAL - 2023-07-05 08:36:34 --> Undefined array key "users"
+in APPPATH\Views\admin\booking\index.php on line 211.
+ 1 APPPATH\Views\admin\booking\index.php(211): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "users"', 'C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php', 211)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/booking/index', [], true)
+ 5 APPPATH\Controllers\BookingController.php(34): view('admin/booking/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+CRITICAL - 2023-07-05 08:36:34 --> Undefined array key "users"
+in APPPATH\Views\admin\booking\index.php on line 211.
+ 1 APPPATH\Views\admin\booking\index.php(211): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "users"', 'C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php', 211)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/booking/index', [], true)
+ 5 APPPATH\Controllers\BookingController.php(34): view('admin/booking/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+CRITICAL - 2023-07-05 08:36:35 --> Undefined array key "users"
+in APPPATH\Views\admin\booking\index.php on line 211.
+ 1 APPPATH\Views\admin\booking\index.php(211): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "users"', 'C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php', 211)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/booking/index', [], true)
+ 5 APPPATH\Controllers\BookingController.php(34): view('admin/booking/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+CRITICAL - 2023-07-05 08:36:35 --> Undefined array key "users"
+in APPPATH\Views\admin\booking\index.php on line 211.
+ 1 APPPATH\Views\admin\booking\index.php(211): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "users"', 'C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php', 211)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/booking/index', [], true)
+ 5 APPPATH\Controllers\BookingController.php(34): view('admin/booking/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+CRITICAL - 2023-07-05 08:36:35 --> Undefined array key "users"
+in APPPATH\Views\admin\booking\index.php on line 211.
+ 1 APPPATH\Views\admin\booking\index.php(211): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "users"', 'C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php', 211)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/booking/index', [], true)
+ 5 APPPATH\Controllers\BookingController.php(34): view('admin/booking/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+CRITICAL - 2023-07-05 08:36:35 --> Undefined array key "users"
+in APPPATH\Views\admin\booking\index.php on line 211.
+ 1 APPPATH\Views\admin\booking\index.php(211): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "users"', 'C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php', 211)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/booking/index', [], true)
+ 5 APPPATH\Controllers\BookingController.php(34): view('admin/booking/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+CRITICAL - 2023-07-05 08:36:36 --> Undefined array key "users"
+in APPPATH\Views\admin\booking\index.php on line 211.
+ 1 APPPATH\Views\admin\booking\index.php(211): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "users"', 'C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php', 211)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/booking/index', [], true)
+ 5 APPPATH\Controllers\BookingController.php(34): view('admin/booking/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+CRITICAL - 2023-07-05 08:36:36 --> Undefined array key "users"
+in APPPATH\Views\admin\booking\index.php on line 211.
+ 1 APPPATH\Views\admin\booking\index.php(211): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "users"', 'C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php', 211)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/booking/index', [], true)
+ 5 APPPATH\Controllers\BookingController.php(34): view('admin/booking/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+CRITICAL - 2023-07-05 08:36:36 --> Undefined array key "users"
+in APPPATH\Views\admin\booking\index.php on line 211.
+ 1 APPPATH\Views\admin\booking\index.php(211): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "users"', 'C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php', 211)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/booking/index', [], true)
+ 5 APPPATH\Controllers\BookingController.php(34): view('admin/booking/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+CRITICAL - 2023-07-05 08:36:36 --> Undefined array key "users"
+in APPPATH\Views\admin\booking\index.php on line 211.
+ 1 APPPATH\Views\admin\booking\index.php(211): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "users"', 'C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php', 211)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/booking/index', [], true)
+ 5 APPPATH\Controllers\BookingController.php(34): view('admin/booking/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+CRITICAL - 2023-07-05 08:36:36 --> Undefined array key "users"
+in APPPATH\Views\admin\booking\index.php on line 211.
+ 1 APPPATH\Views\admin\booking\index.php(211): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "users"', 'C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php', 211)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/booking/index', [], true)
+ 5 APPPATH\Controllers\BookingController.php(34): view('admin/booking/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+INFO - 2023-07-05 16:12:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 16:13:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 16:48:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 16:48:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 16:48:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 16:48:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 16:48:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-05 16:53:54 --> Router.invalidParameterType
+in SYSTEMPATH\Router\RouteCollection.php on line 1243.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1243): CodeIgniter\Router\Exceptions\RouterException::forInvalidParameterType()
+ 2 SYSTEMPATH\Router\RouteCollection.php(1059): CodeIgniter\Router\RouteCollection->buildReverseRoute('booking/update-status/([0-9]+)/([a-zA-Z]+)', [...])
+ 3 SYSTEMPATH\Common.php(966): CodeIgniter\Router\RouteCollection->reverseRoute('update-status', '')
+ 4 APPPATH\Views\admin\booking\index.php(253): route_to('update-status', '')
+ 5 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/booking/index', [], true)
+ 8 APPPATH\Controllers\BookingController.php(34): view('admin/booking/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+CRITICAL - 2023-07-05 16:53:54 --> Router.invalidParameterType
+in SYSTEMPATH\Router\RouteCollection.php on line 1243.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1243): CodeIgniter\Router\Exceptions\RouterException::forInvalidParameterType()
+ 2 SYSTEMPATH\Router\RouteCollection.php(1059): CodeIgniter\Router\RouteCollection->buildReverseRoute('booking/update-status/([0-9]+)/([a-zA-Z]+)', [...])
+ 3 SYSTEMPATH\Common.php(966): CodeIgniter\Router\RouteCollection->reverseRoute('update-status', '')
+ 4 APPPATH\Views\admin\booking\index.php(253): route_to('update-status', '')
+ 5 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/booking/index', [], true)
+ 8 APPPATH\Controllers\BookingController.php(34): view('admin/booking/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+CRITICAL - 2023-07-05 16:56:28 --> Router.invalidParameterType
+in SYSTEMPATH\Router\RouteCollection.php on line 1243.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1243): CodeIgniter\Router\Exceptions\RouterException::forInvalidParameterType()
+ 2 SYSTEMPATH\Router\RouteCollection.php(1059): CodeIgniter\Router\RouteCollection->buildReverseRoute('booking/update-status/([0-9]+)/([a-zA-Z]+)', [...])
+ 3 SYSTEMPATH\Common.php(966): CodeIgniter\Router\RouteCollection->reverseRoute('update-status', '')
+ 4 APPPATH\Views\admin\booking\index.php(253): route_to('update-status', '')
+ 5 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/booking/index', [], true)
+ 8 APPPATH\Controllers\BookingController.php(34): view('admin/booking/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+CRITICAL - 2023-07-05 16:56:29 --> Router.invalidParameterType
+in SYSTEMPATH\Router\RouteCollection.php on line 1243.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1243): CodeIgniter\Router\Exceptions\RouterException::forInvalidParameterType()
+ 2 SYSTEMPATH\Router\RouteCollection.php(1059): CodeIgniter\Router\RouteCollection->buildReverseRoute('booking/update-status/([0-9]+)/([a-zA-Z]+)', [...])
+ 3 SYSTEMPATH\Common.php(966): CodeIgniter\Router\RouteCollection->reverseRoute('update-status', '')
+ 4 APPPATH\Views\admin\booking\index.php(253): route_to('update-status', '')
+ 5 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/booking/index', [], true)
+ 8 APPPATH\Controllers\BookingController.php(34): view('admin/booking/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+CRITICAL - 2023-07-05 16:56:29 --> Router.invalidParameterType
+in SYSTEMPATH\Router\RouteCollection.php on line 1243.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1243): CodeIgniter\Router\Exceptions\RouterException::forInvalidParameterType()
+ 2 SYSTEMPATH\Router\RouteCollection.php(1059): CodeIgniter\Router\RouteCollection->buildReverseRoute('booking/update-status/([0-9]+)/([a-zA-Z]+)', [...])
+ 3 SYSTEMPATH\Common.php(966): CodeIgniter\Router\RouteCollection->reverseRoute('update-status', '')
+ 4 APPPATH\Views\admin\booking\index.php(253): route_to('update-status', '')
+ 5 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/booking/index', [], true)
+ 8 APPPATH\Controllers\BookingController.php(34): view('admin/booking/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+CRITICAL - 2023-07-05 16:56:30 --> Router.invalidParameterType
+in SYSTEMPATH\Router\RouteCollection.php on line 1243.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1243): CodeIgniter\Router\Exceptions\RouterException::forInvalidParameterType()
+ 2 SYSTEMPATH\Router\RouteCollection.php(1059): CodeIgniter\Router\RouteCollection->buildReverseRoute('booking/update-status/([0-9]+)/([a-zA-Z]+)', [...])
+ 3 SYSTEMPATH\Common.php(966): CodeIgniter\Router\RouteCollection->reverseRoute('update-status', '')
+ 4 APPPATH\Views\admin\booking\index.php(253): route_to('update-status', '')
+ 5 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/booking/index', [], true)
+ 8 APPPATH\Controllers\BookingController.php(34): view('admin/booking/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+CRITICAL - 2023-07-05 16:56:30 --> Router.invalidParameterType
+in SYSTEMPATH\Router\RouteCollection.php on line 1243.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1243): CodeIgniter\Router\Exceptions\RouterException::forInvalidParameterType()
+ 2 SYSTEMPATH\Router\RouteCollection.php(1059): CodeIgniter\Router\RouteCollection->buildReverseRoute('booking/update-status/([0-9]+)/([a-zA-Z]+)', [...])
+ 3 SYSTEMPATH\Common.php(966): CodeIgniter\Router\RouteCollection->reverseRoute('update-status', '')
+ 4 APPPATH\Views\admin\booking\index.php(253): route_to('update-status', '')
+ 5 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/booking/index', [], true)
+ 8 APPPATH\Controllers\BookingController.php(34): view('admin/booking/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+CRITICAL - 2023-07-05 17:39:01 --> Undefined array key "nomor_telepon"
+in APPPATH\Views\anggota\list.php on line 155.
+ 1 APPPATH\Views\anggota\list.php(155): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nomor_telepon"', 'C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\anggota\\list.php', 155)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\anggota\\list.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('anggota/list', [], true)
+ 5 APPPATH\Controllers\AnggotaController.php(24): view('anggota/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AnggotaController->anggota()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AnggotaController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+INFO - 2023-07-05 17:39:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-05 17:39:35 --> Undefined array key "nomor_telepon"
+in APPPATH\Views\admin\booking\index.php on line 224.
+ 1 APPPATH\Views\admin\booking\index.php(224): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nomor_telepon"', 'C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php', 224)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\app\\Views\\admin\\booking\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/booking/index', [], true)
+ 5 APPPATH\Controllers\BookingController.php(34): view('admin/booking/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BookingController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\KULIAH\\SEMESTER 4\\pwl\\code\\fp\\public\\index.php')
+INFO - 2023-07-05 17:39:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 17:40:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 17:41:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 17:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 17:41:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 17:41:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 17:41:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 17:41:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 17:41:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 17:41:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 17:46:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
